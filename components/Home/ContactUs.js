@@ -8,7 +8,7 @@ export default function ContactSection() {
         <div className="md:w-1/2 flex flex-col text-center md:text-left">
           <h2 className="text-4xl font-thin mb-4 text-gray-900">Contact us</h2>
           <p className="text-gray-600">
-            We’d love to hear from you! Please fill out the form below and we’ll get in touch with you shortly.
+            We&apos;d love to hear from you! Please fill out the form below and we&apos;ll get in touch with you shortly.
           </p>
         <div className=" hidden md:flex md:justify-end md:items-end">
               <img
