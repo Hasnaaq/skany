@@ -17,7 +17,7 @@ export default function ContactUs() {
                     <div className="md:w-1/2 flex flex-col text-center md:text-left">
                     <h2 className="text-4xl font-thin mb-4 text-gray-900">Fill out the form</h2>
                     <p className="text-gray-600">
-                We&apos;d love to hear from you! Please fill out the form below and We&apos;ll get in touch with you shortly.                    </p>
+                     We&apos;d love to hear from you! Please fill out the form below and We&apos;ll get in touch with you shortly.                    </p>
                     <div className=" hidden md:flex md:justify-end md:items-end">
                         <img
                             src="/images/ContactUs/Vector.svg"  
