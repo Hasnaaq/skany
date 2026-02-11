@@ -67,7 +67,6 @@ export default function HeroSection() {
 
         </div>
 
-        {/* Scroll Icon */}
         <div className="mt-12 flex justify-center">
           <button className="w-8 h-8 border border-white rounded-full flex items-center justify-center animate-bounce">
             <span className="text-white text-lg">&#8595;</span>

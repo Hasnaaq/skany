@@ -1,6 +1,4 @@
  'use client';
-
-
  export default function footer() {
   return (
     <footer className="bg-[#0F1E1D] text-white absolute mt-11 ">
@@ -79,8 +77,7 @@
         </div>
       </div>
 
-      {/* Bottom Text */}
-      <div className="text-center text-xs text-gray-500 py-4 border-t border-gray-800">
+        <div className="text-center text-xs text-gray-500 py-4 border-t border-gray-800">
         © 2021 Attorni. All rights reserved.
       </div>
     </footer>

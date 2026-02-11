@@ -39,8 +39,6 @@ export default function ForgetPassword() {
         </div>
         </div>
      
-
-    
         <div className="flex gap-4  md:justify-around md:w-[80%] w-full flex-col md:flex-row justify-center ">
           <button className="px-6 md:w-[80%] w-full py-2 border border-gray-500 rounded-lg text-gray-800 hover:bg-gray-100 transition">
             Cancel

@@ -34,7 +34,7 @@ export default function Ourlist() {
 
           <div className="min-h-screen bg-white p-4 md:p-10">
       <div className="grid md:grid-cols-5 gap-6 ">
-        {/* Sidebar */}
+        
         <aside className="md:col-span-1 space-y-6 border-r pr-7  ">
           <div className="relative">
             <input
@@ -90,7 +90,7 @@ export default function Ourlist() {
           </div>
         </aside>
 
-        {/* Main Content */}
+       
         <div className="md:col-span-4 text-gray-900">
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-2xl font-semibold">Our List Real Estate</h2>
@@ -108,7 +108,7 @@ export default function Ourlist() {
             </div>
           </div>
 
-          {/* Cards Grid */}
+       
           <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {properties.map((item, i) => (
               <div key={i} className="border rounded-xl w-72 h-50 overflow-hidden shadow-sm">
@@ -144,7 +144,6 @@ export default function Ourlist() {
             ))}
           </div>
 
-          {/* Pagination */}
           <div className="flex justify-center items-center space-x-2 mt-8 text-sm">
             <button className="px-3 py-1 border rounded">Previous</button>
             {[1, 2, 3, 4, 5, "...", 10].map((page, i) => (

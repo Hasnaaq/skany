@@ -1,6 +1,5 @@
 
 
-
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,10 +8,10 @@ export default function AboutSection() {
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 overflow-hidden">
 
-      {/* ===== Section 1 ===== */}
+  
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center mb-16">
 
-        {/* Text */}
+  
         <div className="space-y-4">
           <p className="text-sm text-gray-400 uppercase">About</p>
           <hr className="w-7 h-1 bg-[#3D5A5E] border-none rounded" />
@@ -39,7 +38,7 @@ export default function AboutSection() {
           
         </div>
 
-        {/* Image Right */}
+      
         <div className="relative w-full h-[280px] sm:h-[350px] md:h-[520px]   ">
           <Image
             src="/images/aboutSection/image (4).svg"
@@ -51,7 +50,6 @@ export default function AboutSection() {
       </div>
 
 
-      {/* ===== Section 2 ===== */}
       {/* <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
         

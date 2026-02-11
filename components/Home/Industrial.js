@@ -69,7 +69,7 @@ export default function IndustrialSection() {
           </button>
         </div>
 
-        {/* Swiper */}
+    
         <Swiper
           modules={[Navigation, Autoplay]}
           spaceBetween={5}
@@ -96,7 +96,7 @@ export default function IndustrialSection() {
           {workers.map((worker, index) => (
             <SwiperSlide key={index}>
               <div className="overflow-hidden rounded-xl w-80  mx-auto shadow border hover:shadow-lg transition">
-                {/* Image */}
+                
                 <div className="relative h-96 w-full cover bg-[#ECEFEF99] "> 
                   <Image
                     src={worker.image}
@@ -106,7 +106,7 @@ export default function IndustrialSection() {
                   />
                 </div>
 
-                {/* Content */}
+             
                 <div className="p-4">
                   <h3 className="font-semibold text-lg text-black ">{worker.name}</h3>
                   <p className="text-gray-500 text-sm">{worker.rate}</p>
